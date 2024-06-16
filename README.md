@@ -6,7 +6,7 @@
 welcome to my Python programming area here you can able to explore various python codes from basic level to python mini projects. You can able to get access of my codes and can share your thoughts and contributions. Let's code together!
 
 ## Getting started
-To get started with the projects in this repository, follow these steps:
+To get started with the files in this repository, follow these steps:
 
 1. Clone the repository to your local machine:
 2. ```bash
