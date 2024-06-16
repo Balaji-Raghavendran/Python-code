@@ -12,7 +12,7 @@ To get started with the projects in this repository, follow these steps:
 2. ```bash
     git clone https://github.com/Balaji-Raghavendran/Python-code.git
     ```
-3. Select the code which you want to explore and refer
+3. Select the Folder which you want to explore and refer
 
 
 ## Contributing
