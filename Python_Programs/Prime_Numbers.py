@@ -1,14 +1,24 @@
-num = int(input("enter a number:"))
-flag = False                         # creating a variable to check whether the divisor evenly dividing the number
-if num == 1:                         # 1 does not have any two divisors therefore it is not a prime number.
-    print("it is not a prime number")
-elif num > 1:                      # to check the numbers which are higher than 1  
-    for i in range(2,num):         # starting the values from 2 to end value - 1 to check it is prime number or not
-        if num % i == 0:           # here if num divides i evenly and the reminder is 0 then it is not a prime number
-            flag = True            # flag states true if the above condition satisfies
-            break                  #loop gets break
-if flag:
-    print(num,"it is not a prime number")       #if the divisor is found then it is not a prime number
+text = input("enter a number:")
+if text.isdigit():              #to check whether the provided string are in digits
+    num = int(text)
+    flag = False                #creating a variable name flag to know that divisor is not found and provided value as false
+    if num == 1:                          
+        print(num,"is not a prime number")
+    elif num > 1:                        
+        for i in range(2,num):   #starting the range from 2(as 1 and 0 are not prime numbers) and end num - 1       
+            if num % i == 0:     # if num % i == 0 (i.e) either num value and divisor evenly divides or num value does not evenly divides 
+                flag = True      #if divisor found flag value is true     
+                break            #breaks the loop immediately
+        if flag:      
+            print(num,"is not a prime number")      
+        else:
+            print(num,"is a prime number") 
+    else:
+        print(num,"is not a prime number")       #if the provided value is zero the else case handles it
 else:
-    print(num,"it is a prime number")           #else divisor is not found then it is prime number.
+    print("Invalid input")                     #either any inputs which does not belongs to prime number this else case handles them.
+  
+
+             
+         
         
