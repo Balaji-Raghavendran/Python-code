@@ -1,7 +1,6 @@
-vowels = ['a','e','i','o','u','A','E','I','O','U']
-count = 0
-input_value = input("Enter a string:")            
-for i in input_value:                  #input values iterates each string values in i
-    if i in vowels:                    #checks if the values stored in i has vowels which is stored in vowels variable
-        count += 1                     #the counts adds up when it is encountered a vowel
-print(f"the word{input_value}has{count}vowels")
+input_value = input("Enter a sentence: ")
+vowels = "aeiou"                         
+sentence = input_value.lower()           #converting the stored values into lowercase
+for vowel in vowels:
+    count_vowel = sentence.count(vowel)        #counts each vowels and stores inside count_vowel variable
+    print(f"{vowel.upper()} - {count_vowel}")  #displays the vowels as uppercase and vowels count appeared in the sentence.
