@@ -1,0 +1,28 @@
+Program 1:
+
+num = int(input("enter a number:"))
+if num % 2 == 0:
+    print("it is an even number")
+else:
+    print("it is an odd number")
+
+
+Program 2:
+
+Val = input("enter a digit:")      # entering a value 
+total = 0        #to store the sum value
+for i in Val:     #iterating each values 
+    if i.isdigit():         #to check whether the provided value a digit or not, skips if it's not a digit.
+        total += int(i)        #using int converting the string values into integer and sums up the digit
+print(total)                #prints the total value.
+
+Program 3:
+
+a = 7
+b = 9
+temp = 0          #creating a temporary variable to hold the value
+temp = a          # first temp holds a value and both the variable has value as 7
+a = b             # here we assign b value to a and it gets overriden but the temp already has value 7
+b = temp          #now the temp value will overrite the b's value 9 to 7.
+print(a)          #this will print 9
+print(b)          #this will print 7
