@@ -28,7 +28,7 @@ If you have ideas for additional Python codes  or improvements to existing ones,
 
 ## License
 
-This repository is licensed under the [GPL-3.0 License](LICENSE). Feel free to use the code in this repository for personal or educational purposes.
+This repository is licensed under the [Apache license](LICENSE). Feel free to use the code in this repository for personal or educational purposes.
 
 ## Contact
 
